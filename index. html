@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Reader</title>
+</head>
+<body>
+
+  <header>
+    <h1>File Reader</h1>
+  </header>
+
+  <main>
+    <p>Your files will show here.</p>
+  </main>
+
+  <nav>
+    <button>Home</button>
+    <button>Files</button>
+    <button>Tools</button>
+    <button>Find</button>
+  </nav>
+
+</body>
+</html>
