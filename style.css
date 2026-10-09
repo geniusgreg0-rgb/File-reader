@@ -3,10 +3,31 @@ body {
   font-family: Arial, sans-serif;
   background-color: #e8eaee;
   color: #1a1f36;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
-header {
-  padding: 20px;
+header button {
+  background: none;
+  border: none;
+  font-size: 24px;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  flex: 1;
+  background-color: #f2f4f8;
+  padding: 25px 10px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 14px;
 }
 
 h1 {
