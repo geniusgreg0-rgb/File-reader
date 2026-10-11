@@ -15,23 +15,34 @@
   </header>
 
   <main>
-    <h2>Quick Tools</h2>
-    <div class="cards">
-      <div class="card">Image to PDF</div>
-      <div class="card">PDF to Word</div>
-      <div class="card">PDF to Image</div>
-    </div>
 
-    <h2>Recent Files</h2>
-    <p>No files yet.</p>
+    <section id="home" class="screen active">
+      <h2>Quick Tools</h2>
+      <div class="cards">
+        <div class="card">Image to PDF</div>
+        <div class="card">PDF to Word</div>
+        <div class="card">PDF to Image</div>
+      </div>
+
+      <h2>Recent Files</h2>
+      <p>No files yet.</p>
+    </section>
+
+    <section id="files" class="screen">
+      <h2>My Files</h2>
+      <p>Your PDF files will show here.</p>
+    </section>
+
   </main>
 
   <nav>
-    <button>Home</button>
-    <button>Files</button>
+    <button onclick="showScreen('home')">Home</button>
+    <button onclick="showScreen('files')">Files</button>
     <button>Tools</button>
     <button>Find</button>
   </nav>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
