@@ -58,3 +58,10 @@ nav button {
   font-size: 16px;
   color: #666666;
 }
+.screen {
+  display: none;
+}
+
+.screen.active {
+  display: block;
+}
